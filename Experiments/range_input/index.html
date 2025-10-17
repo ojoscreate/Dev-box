@@ -10,13 +10,15 @@
     <div class="container">
       <div class="input-field">
         <h4>Range input</h4>
+        <label for="input_range">Rate your mood:</label>
         <input
           type="range"
           min="0"
           max="4"
           value="0"
           id="input_range"
-          oninput="document.getElementById('emoji').innerText = ['😒','😐', '😊', '😅', '😂'][this.value]"
+          title="Mood rating from sad to happy"
+          oninput="document.getElementById('emoji').innerText = ['😒','😐', '😊','😁', '😅'][this.value]"
         />
         <p id="emoji">😒</p>
       </div>
