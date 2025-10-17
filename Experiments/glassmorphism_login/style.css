@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./images/galaxy.jpeg) no-repeat center center/cover;
+  /* background-color: #264749; */
+}
+
+.container {
+  width: 21.875rem;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.9375rem);
+  border-radius: 1.25rem;
+  text-align: center;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1.5s ease;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-3.125rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container h2 {
+  color: #fffff4;
+  margin-bottom: 1.25rem;
+}
+
+.input-box {
+  text-align: left;
+  margin-bottom: 1.25rem;
+}
+
+.input-box label {
+  color: #fffff4;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.3125rem;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.625rem;
+  background: rgba(2555, 255, 255, 0.2);
+  color: #fffff4;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-box input:focus {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0.625rem #64eef5;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.625rem;
+  background: linear-gradient(135deg, #6c9bc5, #64eef5);
+  color: #fffff4;
+  font-size: 1.125rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #64eef5, #6c9bc5);
+}
+
+.msg {
+  margin-top: 0.9375rem;
+  font-size: 0.875rem;
+  color: rgb(148, 148, 64);
+  font-weight: bold;
+}

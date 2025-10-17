@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+.container .row {
+  display: flex;
+  gap: 10px;
+  width: 400px;
+  border: 2px solid gray;
+  padding: 10px;
+
+  overflow-x: scroll;
+}
+
+.row img {
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  object-fit: cover;
+}

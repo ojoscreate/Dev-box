@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(236, 231, 231);
+}
+.form-label {
+  font-size: 1.5rem;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.input-group {
+  margin-top: 0.9375rem;
+}
+.btn {
+  font-size: 1.375rem;
+  padding-inline: 5%;
+}
+#loading {
+  display: none;
+}
+#results {
+  display: none;
+}
+.fahrenheit,
+.celsius {
+  display: none;
+}

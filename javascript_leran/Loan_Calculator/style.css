@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(31, 30, 30);
+}
+/* @media (min-width: 200px) and (max-width: 1500px) {
+  .container {
+    width: 90%;
+    height: 10px;
+    background-color: red;
+  }
+} */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  background-color: #f9f9f9;
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 1%;
+}
+.heading {
+  font: bolder;
+  font-size: 40px;
+  font-weight: 500;
+  /* font-display: fallback; */
+  padding: 6% 0 0;
+}
+.loan-form {
+  width: 80%;
+  margin: auto;
+  /* border: red solid 1px; */
+}
+.input-group {
+  display: inline-flex;
+  width: 100%;
+  /* border: rgb(111, 0, 255) solid 1px; */
+}
+/* @media (min-width: 200px) {
+  .form-control {
+    background-color: red;
+  }
+} */
+@media ((min-width: 100px)and (max-width:1500px)) {
+  .container {
+    width: 60%;
+  }
+  .form-control {
+    width: 96% !important;
+  }
+}
+.form-group {
+  width: 100% !important;
+}
+.form-control {
+  width: 97.5%;
+  margin: 0.3125rem auto;
+  padding: 0.425rem;
+  border: lightgray solid 1px;
+  border-top-right-radius: 0.35rem;
+  border-bottom-right-radius: 0.35rem;
+  align-items: center;
+  /* border: rgb(0, 255, 170) solid 1px; */
+}
+.form-control:focus {
+  outline: lightgray solid 1.5px;
+  /* border-color: lightgray;
+  box-shadow: 0 0 0 3 lightgray; */
+}
+#years {
+  border-top-left-radius: 0.35rem;
+  border-bottom-left-radius: 0.35rem;
+}
+.input-group-addon {
+  background-color: lightgray;
+  color: rgb(82, 81, 81);
+  margin: 0.3125rem auto;
+  padding: 0.425rem;
+  font-size: 0.925rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden 1.2px;
+  /* text-overflow: ellipsis; */
+  border-top-left-radius: 0.35rem;
+  border-bottom-left-radius: 0.35rem;
+  width: auto;
+  /* display: flex; */
+  /* align-items: center;
+  height: 80%; */
+}
+.btn-dark {
+  background-color: rgb(9, 9, 12);
+  color: #f9f9f9;
+  width: 97.5%;
+  padding: 1rem;
+  margin: 7% auto 10%;
+  font-size: 1.35rem;
+  font-weight: 400;
+  /* border-top-left-radius: 0.35rem;
+  border-bottom-left-radius: 0.35rem; */
+  border-radius: 0.35rem;
+}
+/* input:before {
+  border: none;
+} */
+.results-heading {
+  font-size: 1.3rem;
+  padding: -5%;
+  margin: -1% 0 1.05rem;
+}
+#results {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 10%;
+}
+#loading,
+#results {
+  display: none;
+}
+.card {
+  margin: 2.5rem auto;
+  padding: 0.0625rem;
+}
+.alert {
+  width: 76%;
+  height: auto;
+  background-color: #f5c0c0;
+  color: #725353;
+  padding: 5%;
+  margin: 1.25rem auto -1.875rem;
+  border-radius: 0.3125rem;
+}

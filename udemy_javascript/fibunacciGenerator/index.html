@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=100%, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Fibonacci Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Fibonacci Calculator</h1>
+
+      <div class="generator">
+        <p>Input a number to generate the fibonacci values</p>
+        <input
+          type="number"
+          placeholder="Enter number ...."
+          id="fibonacciNumber"
+        />
+        <input type="submit" value="Submit" id="fibonacci_btn" />
+      </div>
+      <div class="results">
+        <h4 id="resultsheading">Results</h4>
+        <textarea
+          type="number"
+          id="fibonacciResults"
+          rows="5"
+          disabled
+        ></textarea>
+      </div>
+    </div>
+    <script src="./fibunacci.js"></script>
+  </body>
+</html>

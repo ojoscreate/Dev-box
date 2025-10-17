@@ -1,0 +1,7 @@
+.big {
+  /* font: bold, 2rem, Courier; */
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: blue;
+}

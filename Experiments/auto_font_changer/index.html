@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Auto Font</title>
+  </head>
+  <body>
+    <div class="bgcontent">
+      <div class="container">
+        <div class="content">
+          <div id="experiment">
+            <label id="switchContainer">
+              <input type="checkbox" name="switch" id="switchToggle" />
+              <span class="switch"></span>
+            </label>
+          </div>
+          <div id="experiment">
+            <p id="text">Font FAMILY</p>
+            <select
+              name="font"
+              onchange="document.getElementById('text').style.fontFamily = this.value"
+              id="changeFont"
+            >
+              <option value="lucida Sans">Lucida Sans</option>
+              <option value="cursive">Cursive</option>
+              <option value="monospace">Monospace</option>
+              <option value="georgia">Georgia</option>
+              <option value="courier">Courier</option>
+              <option value="fantasy">Fantasy</option>
+            </select>
+          </div>
+          <div class="experiment">
+            <div class="passwordcontainer">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="password"
+              />
+              <i id="passwordToggler">👁️</i>
+            </div>
+          </div>
+          <div id="experiment">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search Filter"
+            />
+            <ul id="list">
+              <li>Mango</li>
+              <li>Pineapple</li>
+              <li>Apple</li>
+              <li>Egg Plant</li>
+              <li>Orange</li>
+              <li>Carrot</li>
+            </ul>
+          </div>
+          <div id="experiment">
+            <input list="browser" id="suggessions" placeholder="Suggester" />
+            <datalist id="browser">
+              <option value="chrome">Chrome</option>
+              <option value="firefox">Firefox</option>
+              <option value="edge">Edge</option>
+              <option value="safari">Safari</option>
+              <option value="opera">Opera</option>
+            </datalist>
+          </div>
+          <div id="experiment">
+            <div contenteditable="true" id="edittable">Click To Edit</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

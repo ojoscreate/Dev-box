@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(circle at center, #453454, #789270);
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; */
+  color: #f0eeda;
+  transition: background 0.6s ease-in-out;
+}
+
+.container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+.content {
+  position: relative;
+  width: 23.75rem;
+  padding: 5%;
+  backdrop-filter: blur(0.9375rem);
+  background: rgba(99, 100, 98, 0.1);
+  border-radius: 1.625rem;
+  border: rgba(240, 238, 218, 0.4) 1px solid;
+  box-shadow: 0 1.5625rem 2.8125rem rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  overflow: hidden;
+}
+/* ====== Switch Styling ===== */
+#switchContainer {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  /* margin: -0.625rem; */
+}
+#switchContainer input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 2.125rem;
+}
+.switch::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+input:checked + .switch {
+  background-color: #2f3133;
+}
+input:focus + .switch {
+  box-shadow: 0 0 1px #2f3133;
+}
+input:checked + .switch::before {
+  -webkit-transform: translateY(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+body:has(#switchToggle:checked) {
+  background: url("./img.jpeg") no-repeat center center/cover;
+  /* color: #c2c1bd; */
+}
+.bgcontent {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.5s ease-in-out;
+}
+/* Font, password, Filter Styling */
+#text {
+  font-size: 1.25rem;
+  margin: 0.625rem;
+}
+#changeFont {
+  border-radius: 0.6525rem;
+  padding: 0.225rem 0.625rem;
+}
+
+/* =====PASSWORD===== */
+.passwordcontainer {
+  position: relative;
+  width: 100%;
+}
+
+#password {
+  width: 49% !important;
+  padding-right: 3rem;
+}
+#passwordToggler {
+  position: absolute;
+  right: 0.625rem;
+  top: 25%;
+  transform: translateX(-85px);
+  color: #888;
+  cursor: pointer;
+}
+#password,
+#search,
+#suggessions {
+  width: 53%;
+  margin: 0.625rem;
+  padding: 0.225rem 0.425rem;
+  border-radius: 0.625rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+#edittable,
+#password,
+#changeFont:focus,
+#search:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.4);
+}
+#list li {
+  position: inherit;
+  margin: auto;
+  width: 52%;
+  display: none;
+  list-style-type: none;
+  background-color: #636462;
+}
+
+/* ===== EDITABLE DIV ===== */
+#edittable {
+  width: 50%;
+  margin: 0.625rem auto;
+  padding: 0.625rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.625rem;
+  box-shadow: 0 0 1px;
+  font-size: 0.875rem;
+}
