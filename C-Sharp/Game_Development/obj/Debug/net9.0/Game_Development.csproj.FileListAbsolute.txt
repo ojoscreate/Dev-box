@@ -1,0 +1,15 @@
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\bin\Debug\net9.0\Game_Development.exe
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\bin\Debug\net9.0\Game_Development.deps.json
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\bin\Debug\net9.0\Game_Development.runtimeconfig.json
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\bin\Debug\net9.0\Game_Development.dll
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\bin\Debug\net9.0\Game_Development.pdb
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\obj\Debug\net9.0\Game_Development.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\obj\Debug\net9.0\Game_Development.AssemblyInfoInputs.cache
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\obj\Debug\net9.0\Game_Development.AssemblyInfo.cs
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\obj\Debug\net9.0\Game_Development.csproj.CoreCompileInputs.cache
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\obj\Debug\net9.0\Game_Development.sourcelink.json
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\obj\Debug\net9.0\Game_Development.dll
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\obj\Debug\net9.0\refint\Game_Development.dll
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\obj\Debug\net9.0\Game_Development.pdb
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\obj\Debug\net9.0\Game_Development.genruntimeconfig.cache
+c:\Users\OJOJO\OneDrive\Documents\Dev box\Game_Development\obj\Debug\net9.0\ref\Game_Development.dll
