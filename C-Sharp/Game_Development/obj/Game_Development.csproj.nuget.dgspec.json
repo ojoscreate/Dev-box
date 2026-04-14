@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\OJOJO\\OneDrive\\Documents\\Dev box\\Game_Development\\Game_Development.csproj": {}
+    "C:\\Users\\OJOJO\\OneDrive\\Documents\\Dev box\\C-Sharp\\Game_Development\\Game_Development.csproj": {}
   },
   "projects": {
-    "c:\\Users\\OJOJO\\OneDrive\\Documents\\Dev box\\Game_Development\\Game_Development.csproj": {
+    "C:\\Users\\OJOJO\\OneDrive\\Documents\\Dev box\\C-Sharp\\Game_Development\\Game_Development.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\OJOJO\\OneDrive\\Documents\\Dev box\\Game_Development\\Game_Development.csproj",
+        "projectUniqueName": "C:\\Users\\OJOJO\\OneDrive\\Documents\\Dev box\\C-Sharp\\Game_Development\\Game_Development.csproj",
         "projectName": "Game_Development",
-        "projectPath": "c:\\Users\\OJOJO\\OneDrive\\Documents\\Dev box\\Game_Development\\Game_Development.csproj",
+        "projectPath": "C:\\Users\\OJOJO\\OneDrive\\Documents\\Dev box\\C-Sharp\\Game_Development\\Game_Development.csproj",
         "packagesPath": "C:\\Users\\OJOJO\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\OJOJO\\OneDrive\\Documents\\Dev box\\Game_Development\\obj\\",
+        "outputPath": "C:\\Users\\OJOJO\\OneDrive\\Documents\\Dev box\\C-Sharp\\Game_Development\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OJOJO\\AppData\\Roaming\\NuGet\\NuGet.Config"

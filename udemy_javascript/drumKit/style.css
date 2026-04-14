@@ -54,3 +54,11 @@ footer {
   color: #dbedf3;
   font-family: sans-serif;
 }
+footer a {
+  color: #da0463;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #dbedf3;
+  opacity: 0.5 Visual Studio code;
+}

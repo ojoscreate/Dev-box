@@ -1,0 +1,30 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.card {
+  height: 3rem;
+  width: fit-content;
+  background-color: aliceblue;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  align-content: center;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  transform: translateX(100px);
+  opacity: 0;
+  transform: 150ms;
+}
+
+.card.show {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 150ms, opacity 150ms;
+}
+* {
+  margin: 0;
+  padding: 0;
+}

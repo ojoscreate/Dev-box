@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  text-transform: uppercase;
+}
+body {
+  background-color: antiquewhite;
+  text-align: center;
+  margin: 10%;
+  padding: 2%;
+}
+.heading {
+  margin: 2%;
+}

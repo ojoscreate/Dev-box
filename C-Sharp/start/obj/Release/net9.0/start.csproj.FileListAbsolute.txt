@@ -1,0 +1,15 @@
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\bin\Release\net9.0\start.exe
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\bin\Release\net9.0\start.deps.json
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\bin\Release\net9.0\start.runtimeconfig.json
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\bin\Release\net9.0\start.dll
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\bin\Release\net9.0\start.pdb
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\obj\Release\net9.0\start.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\obj\Release\net9.0\start.AssemblyInfoInputs.cache
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\obj\Release\net9.0\start.AssemblyInfo.cs
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\obj\Release\net9.0\start.csproj.CoreCompileInputs.cache
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\obj\Release\net9.0\start.sourcelink.json
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\obj\Release\net9.0\start.dll
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\obj\Release\net9.0\refint\start.dll
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\obj\Release\net9.0\start.pdb
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\obj\Release\net9.0\start.genruntimeconfig.cache
+c:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\start\obj\Release\net9.0\ref\start.dll

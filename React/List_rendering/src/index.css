@@ -1,0 +1,17 @@
+.list_category {
+  background-color: rgb(61, 149, 250);
+  border: 0.5px solid grey;
+  text-align: center;
+  padding: 2%;
+  font: 2.5rem monospace;
+  margin: 0;
+  color: rgb(17, 17, 52);
+}
+.listItems {
+  font: 1rem monospace;
+  list-style: none;
+  text-align: center;
+  margin: 0.625rem;
+  padding: 0.625rem;
+  color: rgb(17, 17, 52);
+}

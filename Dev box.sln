@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C-Sharp", "C-Sharp", "{8DD2837E-F460-30ED-8E5F-5B31E8047072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_Development", "C-Sharp\Game_Development\Game_Development.csproj", "{1EC0D63A-0AF4-5894-6630-D3166A275934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "start", "C-Sharp\start\start.csproj", "{F7AC5DE5-A128-D0A6-356E-E2673C1BE6D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EC0D63A-0AF4-5894-6630-D3166A275934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC0D63A-0AF4-5894-6630-D3166A275934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC0D63A-0AF4-5894-6630-D3166A275934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC0D63A-0AF4-5894-6630-D3166A275934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AC5DE5-A128-D0A6-356E-E2673C1BE6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AC5DE5-A128-D0A6-356E-E2673C1BE6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AC5DE5-A128-D0A6-356E-E2673C1BE6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AC5DE5-A128-D0A6-356E-E2673C1BE6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1EC0D63A-0AF4-5894-6630-D3166A275934} = {8DD2837E-F460-30ED-8E5F-5B31E8047072}
+		{F7AC5DE5-A128-D0A6-356E-E2673C1BE6D8} = {8DD2837E-F460-30ED-8E5F-5B31E8047072}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55B4B6AC-2C35-4A1E-95CD-761D96B532D8}
+	EndGlobalSection
+EndGlobal

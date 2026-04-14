@@ -1,0 +1,5 @@
+C:\Users\OJOJO\OneDrive\Documents\Dev box\game\c-sharp\BrickBreakerGame\obj\Debug\net9.0-windows\BrickBreakerGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OJOJO\OneDrive\Documents\Dev box\game\c-sharp\BrickBreakerGame\obj\Debug\net9.0-windows\BrickBreakerGame.AssemblyInfoInputs.cache
+C:\Users\OJOJO\OneDrive\Documents\Dev box\game\c-sharp\BrickBreakerGame\obj\Debug\net9.0-windows\BrickBreakerGame.AssemblyInfo.cs
+C:\Users\OJOJO\OneDrive\Documents\Dev box\game\c-sharp\BrickBreakerGame\obj\Debug\net9.0-windows\BrickBreakerGame.csproj.CoreCompileInputs.cache
+C:\Users\OJOJO\OneDrive\Documents\Dev box\game\c-sharp\BrickBreakerGame\obj\Debug\net9.0-windows\BrickBreakerGame.sourcelink.json
