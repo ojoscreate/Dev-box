@@ -1,0 +1,25 @@
+body {
+  background-image: url(./assets/images\ \(5\).jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock-container {
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 0.625rem 0;
+}
+.clock {
+  font-size: 8rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: aliceblue;
+  text-shadow: 3px 2px 6px #00000086;
+  text-align: center;
+}

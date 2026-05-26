@@ -1,0 +1,46 @@
+body {
+  background-color: hsla(0, 0%, 0%, 0.847);
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  margin: 2.125rem;
+  font-size: 4rem;
+}
+input[type="text"] {
+  /* width: 13.75rem; */
+  height: 0.55rem;
+  border-radius: 0.625rem;
+  margin: 0.325rem;
+  padding: 1.25rem;
+  font-size: 1.6rem;
+  border: 2px solid hsla(0, 4%, 20%, 0.362);
+  color: hsla(0, 3%, 7%, 0.547);
+}
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 0.625rem 1.25rem;
+  border: none;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+ol {
+  padding: 0;
+}
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: hsla(300, 100%, 97%, 0.159);
+  padding: 1.2rem;
+  margin-bottom: 0.625rem;
+  border-radius: 0.325rem;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+body {
+  background-color: #000;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  margin: 3.125rem;
+  font-size: 3rem;
+}
+input[type="color"] {
+  border: none;
+  width: 2.75rem;
+  height: 2.55rem;
+  border-radius: 30%;
+  margin: 0.325rem;
+  padding: 1.25rem;
+}
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}

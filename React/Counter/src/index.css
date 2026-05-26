@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+body {
+  background-color: black;
+  color: aliceblue;
+  /* text-align: center; */
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+button {
+  margin: 0.655rem 0;
+  padding: 0.455rem;
+  border-radius: 0.6rem;
+}
+p {
+  margin: 0.855rem;
+}
+.counter-container {
+  width: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.count-display {
+  font-size: 10rem;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.counter-btn {
+  width: 10.25rem;
+  height: 3.25rem;
+  font-size: 1.5rem;
+  margin-inline: 0.625rem;
+  background-color: hsl(180, 100%, 50%);
+  border: none;
+  border-radius: 0.325rem;
+  cursor: pointer;
+}
+.counter-btn:hover {
+  background-color: hsl(180, 100%, 35%);
+  font-weight: bold;
+}

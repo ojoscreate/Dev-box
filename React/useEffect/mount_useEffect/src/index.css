@@ -1,0 +1,22 @@
+@keyframes backgroundChanger {
+  0% {
+    background-color: #f0f8ff;
+    /* transition: 5s c; */
+  }
+  30% {
+    background-color: rgb(192, 219, 243);
+    /* transition: 5s c; */
+  }
+  60% {
+    background-color: rgba(244, 241, 241, 0.71);
+    /* transition: 5s c; */
+  }
+  100% {
+    background-color: rgb(193, 221, 246);
+    /* transition: 5s c; */
+  }
+}
+
+body {
+  animation: backgroundChanger 10s infinite;
+}

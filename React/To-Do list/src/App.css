@@ -1,0 +1,34 @@
+.toDoList-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6.25rem;
+}
+
+.add-btn {
+  background-color: hsl(125, 47%, 54%);
+}
+.add-btn:hover {
+  background-color: hsl(125, 47%, 39%);
+}
+.delete-btn {
+  background-color: hsl(1, 86%, 50%);
+}
+.delete-btn:hover {
+  background-color: hsl(1, 87%, 37%);
+}
+.move-btn {
+  background-color: hsl(230, 73%, 48%);
+}
+.move-btn:hover {
+  background-color: hsl(230, 73%, 39%);
+}
+.delete-btn,
+.move-btn {
+  padding: 0.523rem 0.7rem;
+  font-size: 0.8rem;
+  margin-left: 0.625rem;
+}
+.text {
+  flex: 1;
+}
