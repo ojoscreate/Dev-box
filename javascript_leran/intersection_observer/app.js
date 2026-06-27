@@ -1,6 +1,6 @@
 const cards = document.querySelectorAll(".card");
 const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
+  (entries.forEach((entry) => {
     entry.target.classList.toggle("show", entry.isIntersecting);
 
     /* THIS IS TO STOP THE OBSERVER */
@@ -11,7 +11,7 @@ const observer = new IntersectionObserver((entries) => {
       threshold: 1,
       //   rootMargin: "-200px",
       //   root: null,
-    };
+    });
 });
 
 // ADDING INFINITE SCROLLING
@@ -21,10 +21,10 @@ const lastCardObserver = new IntersectionObserver((entries) => {
   if (!LastCard.isIntersecting) return;
   loadNewCards();
   lastCardObserver.unobserve(LastCard.target);
-  lastCardObserver.observe(document.querySelector(".card:last-child")),
+  (lastCardObserver.observe(document.querySelector(".card:last-child")),
     {
       rootMargin: "100px",
-    };
+    });
 });
 // END OF INFINITE SCROLLING
 const LastCard = document.querySelector(".card:last-child");
