@@ -129,6 +129,7 @@ console.log(finalPrice);
 let register: string[] = ["joe","facquard", "favour"];
 function checker(check:string) : boolean {
     // includes checks an array for content
+    
     return register.includes(check)
 }
 let nameToCheck: string = "facquard"

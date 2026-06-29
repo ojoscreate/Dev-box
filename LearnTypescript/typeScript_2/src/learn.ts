@@ -75,5 +75,25 @@ console.log(changeTheme("dark"))
 
 // EMPLOYEE AND MANAGER
 
-type NumorString = {id:number, name:string}
-let Mannager: NumorString = {id: 20, name: "jod"}
+type Employee = {id:number, name:string, department: string};
+type Manager = {id:number, name:string, employees: string[]};
+type Staff = Employee|Manager;
+
+const john:Employee = {id: 1, name: "john", department: "sales"};
+const alice:Employee = {id: 1, name: "alice", department: "sales"};
+const daina:Employee = {id: 1, name: "daina", department: "sales"};
+const andrew:Manager = {id: 1, name: "andrew", employees: ["John", "Alice", "Daine","Mark"]}
+const gift:Manager = {id: 1, name: "gift", employees: ["John", "Alice", "Daine",]}
+
+
+function printStaffDetails(info:Staff) {
+    
+    if ("employees" in info) {
+        console.log(`${info.name} is a manager, and manages ${info.employees.length} employees `);
+        
+    } else { 
+        console.log(`${info.name} is an employee,works at ${info.department} Department`);
+    }
+}
+
+printStaffDetails(andrew)
