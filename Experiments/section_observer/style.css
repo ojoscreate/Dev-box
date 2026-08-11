@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  transition: background-color 2s ease;
+  margin: 0;
+}
+
+section {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  font-size: 1.5rem;
+  color: aqua;
+}

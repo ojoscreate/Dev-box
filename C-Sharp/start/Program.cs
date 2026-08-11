@@ -1,9 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System;
-namespace Develop
+namespace Start
 {
-    public class studentName
+    public class StudentName
     {
         public void Student()
         {
@@ -45,7 +45,7 @@ namespace Develop
                 Console.WriteLine($"{name}, welcome to Joblise");
             }
 
-            studentName myfunction = new studentName();
+            StudentName myfunction = new StudentName();
 
             myfunction.Student();
         }

@@ -1,0 +1,15 @@
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\bin\Debug\net9.0\Operator_Guessing_Game.exe
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\bin\Debug\net9.0\Operator_Guessing_Game.deps.json
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\bin\Debug\net9.0\Operator_Guessing_Game.runtimeconfig.json
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\bin\Debug\net9.0\Operator_Guessing_Game.dll
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\bin\Debug\net9.0\Operator_Guessing_Game.pdb
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\obj\Debug\net9.0\Operator_Guessing_Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\obj\Debug\net9.0\Operator_Guessing_Game.AssemblyInfoInputs.cache
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\obj\Debug\net9.0\Operator_Guessing_Game.AssemblyInfo.cs
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\obj\Debug\net9.0\Operator_Guessing_Game.csproj.CoreCompileInputs.cache
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\obj\Debug\net9.0\Operator_Guessing_Game.sourcelink.json
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\obj\Debug\net9.0\Operator_Guessing_Game.dll
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\obj\Debug\net9.0\refint\Operator_Guessing_Game.dll
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\obj\Debug\net9.0\Operator_Guessing_Game.pdb
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\obj\Debug\net9.0\Operator_Guessing_Game.genruntimeconfig.cache
+C:\Users\OJOJO\OneDrive\Documents\Dev box\C-Sharp\Operator_Guessing_Game\obj\Debug\net9.0\ref\Operator_Guessing_Game.dll
