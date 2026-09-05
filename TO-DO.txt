@@ -1,0 +1,29 @@
+REACT PROJECTS
+
+music player (react)
+wheather App 
+Movie database
+blogging platform
+chatbot
+expence tracker
+image recognition
+web speech recognition
+chat application (real time)
+ecommerce dashboard
+
+JAVASCRIPT PROJECTS
+
+to-do application
+random quote generator
+music player
+drawing application
+user profille dashboard
+
+quizz application
+
+HTML PROJECTS
+testimonial section
+flip card
+resume builder
+parallex scrooling
+

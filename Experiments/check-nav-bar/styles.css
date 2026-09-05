@@ -47,7 +47,8 @@ body {
   display: none;
 }
 
-.hamburger {
+.hamburger,
+.cancel {
   display: none;
   font-size: 1.8rem;
   cursor: pointer;
@@ -78,5 +79,11 @@ body {
   /* Show menu when checkbox is checked */
   .menu-toggle:checked ~ .nav-links {
     display: flex;
+  }
+  .menu-toggle:checked ~ .cancel {
+    display: block;
+  }
+  .menu-toggle:checked ~ .hamburger {
+    display: none;
   }
 }

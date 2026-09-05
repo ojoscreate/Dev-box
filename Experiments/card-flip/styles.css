@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(232, 217, 217);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+@keyframes flip {
+  0% {
+    background-color: #b8b4b4bc;
+    display: none;
+    width: 10%;
+  }
+  30% {
+    background-color: #cebababc;
+    width: 20%;
+    display: none;
+  }
+  50% {
+    background-color: #edccccbc;
+    width: 30%;
+    display: block;
+  }
+  70% {
+    background-color: #eeddddbc;
+    width: 40%;
+  }
+  100% {
+    background-color: #f09090c5;
+    /* content: none; */
+    width: fit-content;
+    display: none;
+  }
+}
+.card {
+  width: 16rem;
+  /* height: 12rem; */
+  box-sizing: content-box;
+  box-shadow: #000 0px 0px 8px 1px;
+  border: #000 solid 0.5px;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin: auto;
+}
+.card p {
+  text-align: start;
+  width: fit-content;
+  height: fit-content;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 15px;
+}
+.card:hover {
+  border: red dotted 4px;
+
+  /* transform: rotateY(); */
+  /* transform-style: preserve-3d 1s; */
+  /* display: none; */
+  /* animation: flip infinite 5s; */
+}
